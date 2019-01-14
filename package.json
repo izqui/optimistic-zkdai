@@ -1,0 +1,21 @@
+{
+  "name": "optimistic-zkdai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --reset",
+    "test": "truffle test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "openzeppelin-solidity": "^2.0.0",
+    "truffle": "^5.0.0-beta.1"
+  },
+  "dependencies": {
+    "eccrypto": "^1.1.0",
+    "secp256k1": "^3.6.1"
+  }
+}
